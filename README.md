@@ -6,3 +6,9 @@ It was created with [Hexo](https://hexo.io/) and the [cactus dark](https://githu
 Send errata corrections and questions to she@jasmine.computer
 
 PRs are welcome. :)
+
+```
+npm install
+npm install -g hexo-cli
+hexo server
+```
