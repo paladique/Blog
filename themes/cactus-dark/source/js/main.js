@@ -35,6 +35,8 @@ $(document).ready(function() {
      */
     var menu = $("#menu");
     var menu_icon = $("#menu-icon, #menu-icon-tablet");
+    menu.css("visibility", "visible");
+
     menu_icon.click(function() {
       if (menu.css('visibility') === 'hidden') {
         menu.css("visibility", "visible");
