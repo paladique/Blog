@@ -20,11 +20,9 @@ $(document).ready(function() {
   $("#header > #nav > ul > .icon").click(function() {
     $("#header > #nav > ul").toggleClass("responsive");
   });
-
-
-    $("#y").ready(function() {
-
-      $("#y").text(new Date().getFullYear() - 2009);
+  
+  $("#y").ready(function() {
+    $("#y").text(new Date().getFullYear() - 2009);
   });
 
   /**
