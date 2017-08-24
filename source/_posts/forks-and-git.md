@@ -9,7 +9,7 @@ tags:
 
 On my [last team](https://github.com/github/visualstudio), I had push access as a collaborator. I didn't have to worry too much about forks,as I wasn't really doing much open source outside of my job. The one thing that I can never remember how to do is deal with forks locally. Specifically, I always forget how to grab the latest commits from the parent repository. I like to `pull` (`fetch + merge`) as often as I can to incorporate new changes as quickly as possible because conflicts suck.
 
-# Make sure your remote is set
+## Make sure your remote is set
 We'll need to make sure we can access the parent fork. If you're working with a forked branch and want to keep it synced up with the parent repo, you'll need to set the remote of the repository you want to track, if it's not set already. 
 
 Let's take a look at the remotes you have. With your favorite cli of choice, navigate to your local repository `(cd path/to/your/directory)` that contains the fork and type the following:
@@ -32,7 +32,7 @@ Hopefully you've remembered where you forked the project from, but if you don't,
 
 Copy the parent url because you'll need it for the next step.
 
-## Add parent as a remote
+### Add parent as a remote
 Let's add the parent repo url that we got in the last section as a remote. From the cli:
 
 _`parent` is what I chose to name the remote, feel free to change it to whatever you'd like._
@@ -47,7 +47,7 @@ If you do `git remote -v` again, you should see the remote you just added.
 
 Ok! We're set to get some commits!
 
-# Get the latest changes
+## Get the latest changes
 
 If the parent repo is very active, chances are you might be out of sync with it, so let's grab the latest changes:
 
@@ -55,7 +55,7 @@ If the parent repo is very active, chances are you might be out of sync with it,
 
 This grabs all the history and branches from the parent repo. Now that we have recent changes locally let's merge things!
 
-# Merge
+## Merge
 
 For this example we'll assume `master` is the default branch of parent and that you want to get your forked `master` branch caught up with the parent. 
 
