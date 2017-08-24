@@ -67,7 +67,7 @@ git push
 ```
 
 After these commands you should see something similar to this on your forked repository (Microsoft:master = parent:master):
-[fork is even with master][evenfork.png]
+![fork is even with master](/img/evenfork.png)
 
 What this means is that the commits in the parent repo match the commits in your forked repo. Note that if you've committed changes there might be something that says "x commits ahead of [the parent repo name]". That usually just means you've got some stuff you've been working on up in there. If you didn't do it, check the commit history and see what changed.
 
