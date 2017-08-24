@@ -12,7 +12,8 @@ On my [last team](https://github.com/github/visualstudio), I had push access as 
 # Make sure your remote is set
 We'll need to make sure we can access the parent fork. If you're working with a forked branch and want to keep it synced up with the parent repo, you'll need to set the remote of the repository you want to track, if it's not set already. 
 
-Let's take a look at the remotes you have. With your favorite cli of choice, navigate to your local repository (`cd path/to/your/directory`)that contains the fork and type the following:
+Let's take a look at the remotes you have. With your favorite cli of choice, navigate to your local repository `(cd path/to/your/directory)` that contains the fork and type the following:
+
 `git remote -v`
 
 You should see a list similar to this:
@@ -36,9 +37,11 @@ Let's add the parent repo url that we got in the last section as a remote. From 
 
 _`parent` is what I chose to name the remote, feel free to change it to whatever you'd like._
 
+
 ```
 git remote add parent https://github.com/parent/parentrepo.git
 ```
+
 
 If you do `git remote -v` again, you should see the remote you just added.
 
@@ -46,7 +49,8 @@ Ok! We're set to get some commits!
 
 # Get the latest changes
 
-If the parent repo is very active, chances are you might be out of sync with it, so let's grab the latest changes
+If the parent repo is very active, chances are you might be out of sync with it, so let's grab the latest changes:
+
 `git pull parent` or `git fetch parent` _[difference between pull and fetch](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)_
 
 This grabs all the history and branches from the parent repo. Now that we have recent changes locally let's merge things!
