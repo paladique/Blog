@@ -17,16 +17,6 @@ customize:
         url:
         gravatar: false
     favicon:
-      # eg. generate with http://realfavicongenerator.net/
-      desktop:
-        url:
-        gravatar: false
-      android:
-        url:
-        gravator: false
-      apple:
-        url:
-        gravator: false
     social_links:
         github: https://github.com/paladique
         twitter: https://twitter.com/paladique
