@@ -7,4 +7,4 @@ It was created with [Hexo](https://hexo.io/) and the [cactus dark](https://githu
 
  I tinkered with HTML and CSS in my younger years through GeoCities, MySpace, and LiveJournal. I went to college to achieve my childhood dream of becoming a meteorologist. But a class on Perl convinced me to change my major to software engineering.
 
-I've been in tech since fall of 2009, starting as an part-time dev intern and currently working in developer relations. Most of my work has been done in C# or JavaScript.
+I've been in tech since 2009, starting as an part-time dev intern and currently working in developer relations. Most of my work has been done in C# or JavaScript.

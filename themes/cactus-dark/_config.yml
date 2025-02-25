@@ -9,7 +9,6 @@ projects_url: http://jasmine.computer
 
 customize:
     gravatar:
-        email: she@jasmine.computer
     logo:
         enabled: true
         width: 50
