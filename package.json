@@ -2,12 +2,15 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "hexo": {
-    "version": "7.3.0"
-  },
   "scripts": {
-    "postinstall": "hexo generate"
-  },
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    },
+    "hexo": {
+      "version": ""
+    }, 
   "dependencies": {
     "hexo": "^7.3.0",
     "hexo-generator-archive": "^0.1.4",
