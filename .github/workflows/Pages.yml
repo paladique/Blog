@@ -39,7 +39,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://paladique.github.io/Blog
+      url: blog.jasmine.computer
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
